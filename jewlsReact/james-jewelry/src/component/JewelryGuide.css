@@ -1,0 +1,37 @@
+.jewelry-guide {
+  background: #fffdfa;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.jewelry-guide h2 {
+  color: #bfa14a;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.jewelry-guide img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.guide-section {
+  margin-bottom: 1.5rem;
+}
+
+.guide-section h3 {
+  color: #7a6c3a;
+  margin-bottom: 0.5rem;
+}
+
+.guide-section ul {
+  padding-left: 1.2rem;
+}
+
+.guide-section li {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
