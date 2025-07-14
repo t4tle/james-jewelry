@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.cart {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 260px;
+  background: #fffdfa;
+  border: 1px solid #bfa14a;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 1rem;
+  z-index: 1000;
+}
