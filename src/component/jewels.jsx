@@ -23,7 +23,7 @@ const JewleryCard = ({ jewlery }) => {
         </Link>
       </div>
       <div>
-        <span>{price}</span>
+        <span>${price}</span>
         <button onClick={() => addToCart(jewlery)} style={{ marginLeft: '1rem' }}>
           Add to Cart
         </button>

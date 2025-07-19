@@ -22,8 +22,9 @@ const JewelryDetail = ({ jewelryList }) => {
         alt={item.Name}
         style={{ maxWidth: '300px' }}
       />
-      <p>Price: {item.price}</p>
-      {/* Add more details here as needed */}
+      {item.Desc && <p>Description: {item.Desc}</p>}
+      <p>Price: ${item.price}</p>
+      
       <Link to="/">Back to list</Link>
     </div>
   );
